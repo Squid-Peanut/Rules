@@ -32,6 +32,22 @@ class Rule:
     ...
 ```
 
-### 2. 주석 표기 필수 ( 한글 기준 )
+### 2. 주석 표기 ( 영어 )
+```python
+# 함수의 경우 동작 설명
 
+def sumAll(a_list):
+    """
+    Sum in list
+    """
+    return sum(a_list)
+
+# 코드내 따로 주석이 필요한 부분
+str_alphabet = 'abcdefg' # String Alphabet
+```
+### 3. 커밋 이름 지정 규칙
+```bash
+# 예제) 특정 함수를 수정해서 에러를 고쳤을 경우
+$ git commit -m "Error Fix: New Someting Function Change"
+```
 <hr/>
